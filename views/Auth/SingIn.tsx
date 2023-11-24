@@ -1,5 +1,6 @@
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
+import { UserAuthForm } from "./components";
 
 export const SignIn = () => {
   return (
@@ -12,7 +13,7 @@ export const SignIn = () => {
           User Agreement and Privacy Policy.
         </p>
       </div>
-      {/* <UserAuthForm /> */}
+      <UserAuthForm />
       <p className="px-8 text-center text-sm text-muted-foreground">
         New to readit?{" "}
         <Link
